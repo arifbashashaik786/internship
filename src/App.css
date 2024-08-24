@@ -1,0 +1,76 @@
+.main{
+  
+  margin-top: 10%;
+}
+.main .btn{
+  margin-left:38% ;
+
+}
+.main button {
+  margin: 30px;
+  padding: 8px;
+  font-weight: bold;
+  color: blue;
+}
+.res .content span{
+  color:azure
+}
+.res .content{
+  color:yellow;
+  padding: 15px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.res{
+ object-fit: contain;
+ opacity: 0.7;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv-qjnZzi6-RRHKkUZcluyqPfPY7nVYQqBjg&s');
+}
+.success h1{
+  
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  
+  text-align: center;
+}
+.Frm{
+  
+  border: 1px solid black;
+  background-color: antiquewhite;
+  width: max-content;
+  font-style: oblique;
+  padding: 30px;
+ 
+}
+input[type="text"],input[type="checkbox"],input[type="radio"],select
+{
+  margin: 10px;
+  font-weight: bold;
+}
+.Frm button{
+  margin: 10px;
+  background-color: blue;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 10px;
+  width: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+  
+}
+.Frm button:hover{
+  background-color: antiquewhite;
+  color: darkslategray;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.frm{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
